@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="com.ahmedadeltito.photoeditor.PhotoEditorActivity">
+    tools:context="com.fazal.photoeditor.PhotoEditorActivity">
 
-    <com.ahmedadeltito.photoeditor.widget.SlidingUpPanelLayout
+    <com.fazal.photoeditor.widget.SlidingUpPanelLayout
         android:id="@+id/sliding_layout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -38,7 +38,7 @@
                     android:contentDescription="@string/app_name"
                     android:scaleType="centerCrop" />
 
-                <com.ahmedadeltito.photoeditorsdk.BrushDrawingView
+                <com.fazal.photoeditorsdk.BrushDrawingView
                     android:id="@+id/drawing_view"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -285,7 +285,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <com.ahmedadeltito.photoeditor.widget.RealtimeBlurView
+            <com.fazal.photoeditor.widget.RealtimeBlurView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 app:realtimeBlurRadius="10dp"
@@ -309,6 +309,6 @@
 
         </RelativeLayout>
 
-    </com.ahmedadeltito.photoeditor.widget.SlidingUpPanelLayout>
+    </com.fazal.photoeditor.widget.SlidingUpPanelLayout>
 
 </RelativeLayout>
